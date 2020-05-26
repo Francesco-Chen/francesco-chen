@@ -1,0 +1,19 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>Race Condition Example</title>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+
+<script>
+$.ajax({
+
+  url: 'http://www.google.it',
+  type: 'GET',
+  complete: function(response) {
+   if(response.status == 200) {
+    alert('有效');
+   } else {
+    alert('无效');
+   }
+  }
+ });
+</script>
