@@ -23,7 +23,7 @@ GitHub.io page
 ```
 
 
-```console
+```bat
 sudo apt-get -y install qrencode
 qrencode -t UTF8 'https://'
 
