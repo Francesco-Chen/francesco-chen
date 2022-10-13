@@ -21,3 +21,10 @@ GitHub.io page
 █████████████████████████████████
 █████████████████████████████████
 ```
+
+
+```bash
+sudo apt-get -y install qrencode
+qrencode -t UTF8 'https://'
+
+```
